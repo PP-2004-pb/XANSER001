@@ -12,11 +12,11 @@ services:
       - key: DEMO_SEED
         value: "false"
       - key: PUBLIC_DEMO
-        value: "true"
+        value: "false"
       - key: PUBLIC_DEMO_DATA_CONFIRMATION
         value: synthetic-only
       - key: VITE_PUBLIC_DEMO
-        value: "true"
+        value: "false"
       - key: VITE_API_URL
         value: /api
       - key: JWT_SECRET
